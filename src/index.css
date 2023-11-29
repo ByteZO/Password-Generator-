@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home {
+  height: 100%;
+  width: 100%;
+}
+
+.genBox {
+  border: 2px solid black;
+  width: 30vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Iput {
+  border: 2px solid black;
+  padding: 3px;
+}
+
+.insec {
+  display: flex;
+  align-items: center;
+}
+.copy {
+  border: 2px solid black;
+}
